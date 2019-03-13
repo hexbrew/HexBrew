@@ -17,11 +17,12 @@ header {
 header img {
     max-width: 200px;
     display: block;
-    margin: 40px auto;
+    margin: 0 auto;
 }
 
 header .subtitle {
     color: #555;
+    margin: 0;
 }
 
 header #logo {
