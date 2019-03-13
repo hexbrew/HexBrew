@@ -1,3 +1,41 @@
 body {
-    background: green;
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+header .subtitle {
+    color: #555;
+}
+
+header #logo {
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
