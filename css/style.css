@@ -17,7 +17,7 @@ header {
 header img {
     max-width: 200px;
     display: block;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 header .subtitle {
@@ -37,5 +37,20 @@ header #logo {
     }
     to {
         transform:rotate(360deg);
+    }
+}
+
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+    header {
+        height: auto;
+    }
+
+    header img {
+        margin: 10px auto;
+    }
+
+    h1, p {
+        font-size: 0.8em;
     }
 }
